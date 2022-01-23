@@ -18,9 +18,18 @@
 	<h1>Result: </h1>
 	Student added: ${studentObject}
 	<br>
-	Student name : ${studentObject.id}
+	Student id : ${studentObject.id}
 	<br>
 	Student name : ${studentObject.name}
 	<br>
+	<h1>Greeting: </h1>
+	Welcome back ${greetStudent}
+	
+	<h1>Student list: </h1>
+	All students are :${studentList}
+	
+	<h1>Get a specific student with id:  </h1>
+	The student which you selected is ${studentById}
+	
 </body>
 </html>

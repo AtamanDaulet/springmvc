@@ -7,7 +7,20 @@
 <title>Result page</title>
 </head>
 <body>
+<!--  
 	<h1>Result: </h1>
-	Result of addition operation is: ${sumOfTwoIntegers}
+	Result of addition operation(${inputValueA} + ${inputValueB}) is: ${sumOfTwoIntegers}
+	<br>
+	<br>
+	Result of product operation(${inputValueA} * ${inputValueB}) is: ${productOfTwoIntegers}
+	-->
+	
+	<h1>Result: </h1>
+	Student added: ${studentObject}
+	<br>
+	Student name : ${studentObject.id}
+	<br>
+	Student name : ${studentObject.name}
+	<br>
 </body>
 </html>
